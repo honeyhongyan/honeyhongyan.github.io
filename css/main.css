@@ -1683,16 +1683,6 @@ pre .javascript .function {
   display: inline-block;
   margin: 0.8em 2em 0 2em;
 }
-#wechat:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
-}
-#alipay:hover p {
-  animation: roll 0.1s infinite linear;
-  -webkit-animation: roll 0.1s infinite linear;
-  -moz-animation: roll 0.1s infinite linear;
-}
 #bitcoin:hover p {
   animation: roll 0.1s infinite linear;
   -webkit-animation: roll 0.1s infinite linear;
@@ -1943,7 +1933,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1cff37;
+  background: #e2c8ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3240,4 +3230,12 @@ pre .javascript .function {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 20px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 20px rgba(202,203,204,0.5);
 }
